@@ -34,7 +34,7 @@ export const HeroSection = () => {
         </div>
         
         <div className="hero-right">
-          <img src="/hero-doctor.webp" alt="Dr. Tiago Ferrari" className="hero-portrait" />
+          <img src="/hero-doctor.webp" alt="Dr. Tiago Ferrari - Especialista em Cirurgia Plástica e Contorno Corporal" className="hero-portrait" />
         </div>
       </div>
     </header>
