@@ -1,0 +1,41 @@
+.cta-card {
+  padding: 80px 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-content {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-content .h2 {
+  margin-bottom: 24px;
+}
+
+.cta-content p {
+  color: var(--text-muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.cta-btn-wrapper .btn-medix-accent {
+  border-color: rgba(210, 171, 102, 0.3);
+}
+
+.cta-btn-wrapper .btn-medix-accent .btn-medix-icon {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .cta-card {
+    padding: 60px 24px;
+    border-radius: var(--radius-md);
+  }
+  
+  .cta-content .h2 {
+    font-size: clamp(28px, 6vw, 36px);
+  }
+}

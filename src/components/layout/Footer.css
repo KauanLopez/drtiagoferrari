@@ -1,0 +1,101 @@
+.footer {
+  position: relative;
+  padding-top: var(--section-lg);
+  padding-bottom: var(--space-xl);
+  overflow: hidden;
+}
+
+/* Watermark background text */
+.footer-watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: clamp(6rem, 14vw, 16rem);
+  font-weight: 700;
+  opacity: 0.04;
+  white-space: nowrap;
+  pointer-events: none;
+  color: var(--text-inverse);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  user-select: none;
+}
+
+/* Main grid row */
+.footer-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px 32px;
+  align-items: flex-start;
+  margin-bottom: var(--section-md);
+}
+
+/* Brand column takes more space */
+.footer-col--brand {
+  flex: 2 1 280px;
+}
+
+/* Other columns share remaining space equally */
+.footer-col {
+  flex: 1 1 140px;
+}
+
+/* Footer info paragraphs (address, CRM) */
+.footer-info {
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Nav links list */
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.footer-links a, .footer-btn-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+}
+
+.footer-links a:hover, .footer-btn-link:hover {
+  color: var(--accent);
+}
+
+/* h4 inside footer overrides */
+.footer .h4,
+.footer h4 {
+  color: var(--text-inverse);
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+
+/* Bottom bar */
+.footer-bottom {
+  position: relative;
+  z-index: 10;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: var(--space-xl);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
