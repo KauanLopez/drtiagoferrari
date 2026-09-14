@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { ButtonMedix } from '../ui/ButtonMedix';
-import { Shield, Star } from 'lucide-react';
 import { ShaderBackground } from '../ui/ShaderBackground';
 
 import gsap from 'gsap';

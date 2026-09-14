@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { ServiceCardArched } from '../ui/ServiceCardArched';
-import { Sparkles, Award } from 'lucide-react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 

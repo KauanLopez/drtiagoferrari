@@ -1,5 +1,5 @@
 import { useRef, useEffect } from 'react';
-import { BookOpen, ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
 import simpleParallax from 'simple-parallax-js/vanilla';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';

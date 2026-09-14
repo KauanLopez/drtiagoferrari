@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-import { ArrowRight, Users } from 'lucide-react';
 import { ButtonMedix } from '../ui/ButtonMedix';
 import { ShaderBackground } from '../ui/ShaderBackground';
 import gsap from 'gsap';

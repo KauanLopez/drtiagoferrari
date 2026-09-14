@@ -8,8 +8,7 @@ import {
   ProcessAndTeamSection,
   TestimonialOverlapSection,
   MinimalCTASection,
-  FAQSection,
-  PartnerLogosSection
+  FAQSection
 } from '../components/sections';
 
 export const Home = () => {

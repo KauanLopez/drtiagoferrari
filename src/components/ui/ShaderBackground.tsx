@@ -1,6 +1,8 @@
 import { ShaderGradient, ShaderGradientCanvas } from '@shadergradient/react';
 import { useEffect, useRef, useState } from 'react';
 
+const ShaderGradientAny = ShaderGradient as any;
+
 export const ShaderBackground = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
@@ -31,9 +33,8 @@ export const ShaderBackground = () => {
     <div ref={containerRef} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, overflow: 'hidden', pointerEvents: 'none', backgroundColor: '#000000' }}>
       {isVisible && (
         <ShaderGradientCanvas style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none' }}>
-          <ShaderGradient
+          <ShaderGradientAny
             animate="on"
-            axesHelper="off"
             bgColor1="#000000"
             bgColor2="#000000"
             brightness={0.8}
