@@ -52,7 +52,6 @@ export const FAQSection = () => {
   return (
     <section className="faq-section section container" id="faq" ref={containerRef}>
       <div className="section-header text-center faq-anim" style={{ marginBottom: '64px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <div className="label-text" style={{ marginBottom: '16px' }}>Esclarecimentos</div>
         <h2 className="h2" style={{ maxWidth: '600px', textAlign: 'center' }}>Perguntas Frequentes</h2>
       </div>
       
