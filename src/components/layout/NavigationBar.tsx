@@ -17,8 +17,8 @@ export const NavigationBar = () => {
     <>
       <nav className="navbar container" ref={navRef}>
         <div className="brand-logo" style={{ marginBottom: 0, display: 'flex', alignItems: 'center', gap: '16px', fontWeight: 300 }}>
-          <img src="/logo-gold.svg" alt="Dr. Thiago Ferrari" style={{ height: '48px', width: 'auto' }} />
-          <span className="brand-text" style={{ fontSize: 'clamp(18px, 1.8vw, 24px)', whiteSpace: 'nowrap', letterSpacing: '0.05em' }}>DR THIAGO FERRARI</span>
+          <img src="/logo-gold.svg" alt="Dr. Tiago Ferrari" style={{ height: '48px', width: 'auto' }} />
+          <span className="brand-text" style={{ fontSize: 'clamp(18px, 1.8vw, 24px)', whiteSpace: 'nowrap', letterSpacing: '0.05em' }}>DR TIAGO FERRARI</span>
         </div>
         <div className="nav-links">
           <a href="#home">INÍCIO</a>
