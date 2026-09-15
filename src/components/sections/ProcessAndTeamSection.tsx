@@ -62,18 +62,24 @@ export const ProcessAndTeamSection = () => {
               name: 'Isis Ferrari', 
               role: 'Gestão e Acolhimento do Paciente', 
               img: '/isis.webp', 
-              desc: 'Garante que a sua jornada seja leve, humana e acolhedora desde o primeiro contato, organizando cada detalhe da sua estadia e pós-operatório.' 
+              desc: 'Diretora do Instituto Ferrari e esposa do Dr. Tiago, trabalhando lado a lado com ele para garantir que a sua jornada seja leve, humana e acolhedora desde o primeiro contato, organizando cada detalhe da sua estadia e pós-operatório.' 
             },
             { 
-              name: 'Equipe Multidisciplinar', 
-              role: 'Nutrição & Fisioterapia Integrada', 
-              img: '/equipe.webp', 
-              desc: 'Suporte completo e exclusivo no pré e pós-operatório, oferecendo plano nutricional personalizado e sessões de fisioterapia focadas na sua rápida recuperação.' 
+              name: 'Dra. Ariana Ferrari', 
+              role: 'Nutrição Avançada | CRN-8 4276', 
+              img: '/Dra Ariani Ferrari.jpeg', 
+              desc: 'Pioneira em nutrição pré e pós operatória, com doutorado em oncologia, especialização em cirurgias estéticas e foco em saúde e cuidado individualizado para potencializar resultados e segurança em cada etapa do tratamento. Autora de livros e artigos científicos que são referência na área.',
+              imgPosition: 'top'
             }
           ].map((member, i) => (
             <div key={i} className="team-member-card">
               <div className="team-member-img-wrapper">
-                <img src={member.img} alt={member.name} className="team-member-img" />
+                <img 
+                  src={member.img} 
+                  alt={member.name} 
+                  className="team-member-img" 
+                  style={member.imgPosition ? { objectPosition: member.imgPosition } : undefined}
+                />
               </div>
               <div className="team-member-info">
                 <div>
