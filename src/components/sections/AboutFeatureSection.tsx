@@ -29,7 +29,7 @@ export const AboutFeatureSection = () => {
           </h2>
           <p className="about-manifesto-text about-manifesto-anim">
             Liderado pelo Dr. Tiago Ferrari, nosso instituto oferece uma experiência estética incomparável. 
-            Unimos métodos cirúrgicos exclusivos, como o afinamento de cintura sem remodelamento costal e a mamoplastia com tecidos naturais, a um cuidado multidisciplinar humano e constante. 
+            Unimos métodos cirúrgicos exclusivos, como afinamento da cintura sem procedimentos agressivos e cirurgia de mamas sem o uso de prótese de silicone, a um cuidado multidisciplinar humano e constante. 
             Do primeiro contato até a sua recuperação total, nossa prioridade é a sua segurança e a exaltação da sua beleza natural, sem exageros.
           </p>
         </div>

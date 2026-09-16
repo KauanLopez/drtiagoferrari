@@ -36,7 +36,7 @@ export const ServicesHighlightSection = () => {
   return (
     <section className="services-section section container" id="services" ref={containerRef}>
       <div className="section-header text-center services-anim" style={{ marginBottom: '56px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <h2 className="h2" style={{ maxWidth: '640px', textAlign: 'center' }}>Trabalho único, resultado natural.</h2>
+        <h2 className="h2" style={{ maxWidth: '640px', textAlign: 'center' }}>Trabalho único, resultado único.</h2>
       </div>
       <div className="grid-12" ref={cardsRef}>
         <div className="service-card-wrapper col-span-12 md-col-span-6 lg-col-span-4">
@@ -51,14 +51,14 @@ export const ServicesHighlightSection = () => {
           <ServiceCardArched 
             imageSrc="/services/2.webp"
             title="Afinar a Cintura"
-            description="Uma técnica avançada autoral que afina de 6 a 8cm da sua cintura, preservando sua anatomia e sem qualquer remodelamento costal."
+            description="Uma técnica avançada autoral que afina de 6 a 8cm da sua cintura, preservando sua anatomia e sem a necessidade procedimentos agressivos, como remodelamento costal (fratura de costela), Barbie Waist”, Cintura Barbie, B-Waist."
           />
         </div>
         <div className="service-card-wrapper col-span-12 md-col-span-6 lg-col-span-4">
           <ServiceCardArched 
             imageSrc="/services/3.webp"
-            title="Lipoabdominoplastia"
-            description="Harmonização avançada do abdome que remove flacidez enquanto esculpe os contornos utilizando alta manipulação de gordura."
+            title="Lipoaspiração UltraHD"
+            description="Harmonização corporal avançada que atua esculpindo o corpo com o uso de tecnologias e utiliza sua própria gordura para modelar, corrigir imperfeições e destacar o seu desejo, através de lipoenxertia estratégica guiada por ultrassom."
           />
         </div>
       </div>

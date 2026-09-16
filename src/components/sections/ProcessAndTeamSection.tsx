@@ -42,7 +42,7 @@ export const ProcessAndTeamSection = () => {
         <div className="sticky-column col-span-12 lg-col-span-4">
           <div className="sticky-content">
             <h2 className="h2 team-anim">Especialistas focados em uma jornada perfeita</h2>
-            <p className="team-anim">O Dr. Tiago e nossa equipe multidisciplinar unem precisão médica, acompanhamento próximo e cuidado integral.</p>
+            <p className="team-anim">O Dr. Tiago e sua equipe multidisciplinar unem precisão médica, acompanhamento próximo e cuidado integral.</p>
             <div className="team-anim" style={{ marginTop: '32px' }}>
               <ButtonMedix variant="accent" href="https://api.whatsapp.com/message/DBZCU5AN33CWK1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
                 Agende Sua Consulta
