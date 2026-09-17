@@ -67,7 +67,7 @@ export const ProcessAndTeamSection = () => {
             { 
               name: 'Dra. Ariana Ferrari', 
               role: 'Nutrição Avançada | CRN-8 4276', 
-              img: '/Dra Ariani Ferrari.jpeg', 
+              img: '/dra-ariana-ferrari.jpeg', 
               desc: 'Pioneira em nutrição pré e pós operatória, com doutorado em oncologia, especialização em cirurgias estéticas e foco em saúde e cuidado individualizado para potencializar resultados e segurança em cada etapa do tratamento. Autora de livros e artigos científicos que são referência na área.',
               imgPosition: 'top'
             },
