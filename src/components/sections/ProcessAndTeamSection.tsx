@@ -70,6 +70,20 @@ export const ProcessAndTeamSection = () => {
               img: '/Dra Ariani Ferrari.jpeg', 
               desc: 'Pioneira em nutrição pré e pós operatória, com doutorado em oncologia, especialização em cirurgias estéticas e foco em saúde e cuidado individualizado para potencializar resultados e segurança em cada etapa do tratamento. Autora de livros e artigos científicos que são referência na área.',
               imgPosition: 'top'
+            },
+            { 
+              name: 'Bruna Gavioli', 
+              role: 'Estética Integrativa', 
+              img: '/bruna-gavioli.webp', 
+              desc: 'Com mais de 12 anos de experiência em Estética, é especialista em Estética Avançada e em pré e pós-operatório de cirurgia plástica. Une experiência, conhecimento e técnica, com um olhar individualizado para cada paciente, sendo referência e autoridade quando o assunto é cuidado integral e bem estar.',
+              imgPosition: 'top'
+            },
+            { 
+              name: 'Equipe Multidisciplinar', 
+              role: 'Nutrição & Fisioterapia Integrada', 
+              img: '/equipe.webp', 
+              desc: 'Suporte completo e exclusivo no pré e pós-operatório, oferecendo plano nutricional personalizado e sessões de fisioterapia focadas na sua rápida recuperação.',
+              imgPosition: 'center'
             }
           ].map((member, i) => (
             <div key={i} className="team-member-card">
