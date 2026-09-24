@@ -51,7 +51,7 @@ export const ServicesHighlightSection = () => {
           <ServiceCardArched 
             imageSrc="/services/2.webp"
             title="Afinar a Cintura"
-            description="Uma técnica avançada autoral que afina de 6 a 8cm da sua cintura, preservando sua anatomia e sem a necessidade procedimentos agressivos, como remodelamento costal (fratura de costela), Barbie Waist”, Cintura Barbie, B-Waist."
+            description="Uma técnica avançada autoral que afina de 6 a 8cm da sua cintura, preservando sua anatomia e sem a necessidade procedimentos agressivos, como remodelamento costal (fratura de costela), Barbie Waist, Cintura Barbie, B-Waist."
           />
         </div>
         <div className="service-card-wrapper col-span-12 md-col-span-6 lg-col-span-4">
